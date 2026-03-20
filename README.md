@@ -20,6 +20,7 @@ Both Tokenization and Detokenization APIs return the same success response forma
   "status_code": "200",
   "status_message": "SUCCESS",
   "mobicard_txn_reference": "998470530",
+  "mobicard_token_id": "325026456",
   "mobicard_single_use_token_flag": "0",
   "mobicard_custom_one": "mobicard_custom_one",
   "mobicard_custom_two": "mobicard_custom_two",
@@ -105,6 +106,7 @@ The value for the "status" response parameter is always either "SUCCESS" or "FAI
 | `status_code` | **Yes** | HTTP status code | "200" |
 | `status_message` | **Yes** | Status description | "SUCCESS" |
 | `mobicard_txn_reference` | **Yes** | Your original transaction reference | "998470530" |
+| `mobicard_token_id` | **Yes** | Your unique API request id | `"325026456"` |
 | `mobicard_single_use_token_flag` | **Yes** | Single-use token flag from request | "0" or "1" |
 | `timestamp` | **Yes** | Response timestamp | "2026-01-26 13:25:29" |
 | `card_information.card_number` | **Yes** | Full card number (Detokenization only) | "4242424242424242" |
