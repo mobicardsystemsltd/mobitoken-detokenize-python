@@ -31,7 +31,7 @@ Both Tokenization and Detokenization APIs return the same success response forma
     "card_expiry_date": "02/28",
     "card_expiry_month": "02",
     "card_expiry_year": "28",
-    "card_token": "bbaefff665082af8f3a41fa51853062b1628345cec085498bba97e3ae3b1e77e4f7ac5ee0ac9bbf10ff8c151d006d80212a3dac731c48188a9e00f9084b163bf"
+    "card_token": "tok_mc_3b0da132b39673f01eafb3865ec1a9a56b0712c59a82d3d0807ade74b68cb38b4c559e50817452270c88afa3e0de2c8cd32d8a69ee9f72de8a04c2c4955cdcce"
   },
   "addendum_data": "your_custom_data_here_will_be_returned_as_is"
 }
